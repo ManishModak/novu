@@ -40,6 +40,7 @@ export class ExecutionDetailsResponseDto {
 
   @ApiProperty()
   detail: string;
+
   @ApiProperty({
     enum: ExecutionDetailsSourceEnum,
   })
